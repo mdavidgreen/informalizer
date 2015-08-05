@@ -39,7 +39,6 @@ func main() {
     "they will", "they'll",
     "it will",   "it'll",
     "is not",    "isn't",
-    "let us",    "let's",
     "you are",   "you're",
     "what is",   "what's",
     "who is",    "who's",
