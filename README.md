@@ -6,7 +6,7 @@ and outputs an informal version of the text in the file (with contractions).
 
 ##Building
 
-`go build informal`
+`go build informal.go`
 
 ##Using
 
