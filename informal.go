@@ -43,6 +43,7 @@ func main() {
     "what is",   "what's",
     "who is",    "who's",
     "that is",   "that's",
+    "there is",  "there's",
     "He is",     "He's",
     "She is",    "She's",
     "It is",     "It's",
@@ -66,7 +67,8 @@ func main() {
     "You are",   "You're",
     "What is",   "What's",
     "Who is",    "Who's",
-    "That is",   "That's")
+    "That is",   "That's",
+    "There is",  "There's")
   doc, err := ioutil.ReadFile(os.Args[1])
   check(err)
   informalized := informalizer.Replace(string(doc))
